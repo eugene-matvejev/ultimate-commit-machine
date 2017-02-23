@@ -1,10 +1,16 @@
 #!/bin/bash
-for i in {1..5}
+for i in {1..1}
 do
-   	echo "$i"
-	if (( $1 % 2 == 0 ))
+	cp ./README.md ../README.md
+   	echo "${i}";
+
+	if (( $i % 2 == 0 ))
 	then
-		echo And is also an even number.
+		cp 	../README.md README.md.attack
+	else
+		rm -rf ./README.md.attack
 	fi
-    git mv
+
+    git add .
+    git commit -m "${i} test commit attack"
 done
