@@ -1,16 +1,15 @@
 #!/bin/bash
+
+$COPY = "${PWD}/README.md";
+$DESTROY = "${PWD}/README.md.attack";
+
 for i in {1..1000}
 do
-	cp ./README.md ../README.md
-   	echo "${i}";
+	cp $COPY $DESTROY
+    git add .
+    git commit -m "${i} test commit attack"
 
-	if (( $i % 2 == 0 ))
-	then
-		cp 	../README.md ./README.md.attack
-	else
-		rm -rf ./README.md.attack
-	fi
-
+	rm -rf $DESTROY;
     git add .
     git commit -m "${i} test commit attack"
 done
