@@ -6,7 +6,7 @@ do
 
 	if (( $i % 2 == 0 ))
 	then
-		cp 	../README.md README.md.attack
+		cp 	../README.md ./README.md.attack
 	else
 		rm -rf ./README.md.attack
 	fi
