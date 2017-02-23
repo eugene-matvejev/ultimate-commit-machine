@@ -5,7 +5,7 @@ $DESTROY = "${PWD}/README.md.attack";
 
 for i in {1..1000}
 do
-	cp $COPY $DESTROY
+	cp -f $COPY $DESTROY
     git add .
     git commit -m "${i} test commit attack"
 
