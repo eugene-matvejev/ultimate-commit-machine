@@ -1,7 +1,7 @@
 #!/bin/bash
 
-$COPY = "${PWD}/README.md";
-$DESTROY = "${PWD}/README.md.attack";
+COPY="${PWD}/README.md";
+DESTROY="${PWD}/README.md.attack";
 
 echo $COPY $DESTROY
 for i in {1..1}
