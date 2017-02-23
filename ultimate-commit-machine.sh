@@ -3,7 +3,7 @@
 COPY="${PWD}/README.md";
 DESTROY="${PWD}/README.md.attack";
 
-for i in {1..1000}
+for i in {1..499000}
 do
     cp -f $COPY $DESTROY;
     git add .
