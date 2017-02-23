@@ -7,6 +7,6 @@ do
     git add .
     git commit -m "${i}-1 test commit attack";
 
-    git -rf COPY;
+    git -r COPY;
     git commit -m "${i}-2 test commit attack";
 done
