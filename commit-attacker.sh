@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {1..1}
+for i in {1..1000}
 do
 	cp ./README.md ../README.md
    	echo "${i}";
