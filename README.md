@@ -5,4 +5,11 @@
 ./ultimate-commit-machine.sh
 ```
 
-## purpose, I am quite curious, what top1 commiter in github could get :) [e.g. does it helps career?]
+## purposes of this repository:
+ * I am quite curious, is there is any 'top10|100' commiters in github?
+ * SHA1-attack test, example: http://www.itwire.com/security/77024-fallout-webkit-repository-broken-by-sha-1-collision.html
+ 
+ 
+ local repository has over 1kk commits, I unable to push them, because of limitations, so far no problems
+
+
