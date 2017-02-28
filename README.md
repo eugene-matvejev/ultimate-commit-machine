@@ -1,11 +1,11 @@
 # THIS IS 1KKK REPOSITORY
 
-## how to use:
+## how to use
 ```
 ./ultimate-commit-machine.sh
 ```
 
-## purposes of this repository:
+## purposes of repository
  * I am quite curious, is there is any 'top10|100' commiters in github?
  * discover limitations of github.com
   * so far discovered:
