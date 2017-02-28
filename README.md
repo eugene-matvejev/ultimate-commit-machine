@@ -7,6 +7,9 @@
 
 ## purposes of this repository:
  * I am quite curious, is there is any 'top10|100' commiters in github?
+ * discover limitations of github.com
+  * so far discovered:
+   * 10k commit preview per review
  * SHA1-attack test, example: http://www.itwire.com/security/77024-fallout-webkit-repository-broken-by-sha-1-collision.html
  
  
