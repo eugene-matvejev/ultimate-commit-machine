@@ -14,5 +14,3 @@
  
  
  local repository has over 1kk commits, I unable to push them, because of limitations, so far no problems
-
-
