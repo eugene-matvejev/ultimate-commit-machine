@@ -1,4 +1,6 @@
-# THIS IS 1KKK REPOSITORY
+# ULTIMATE COMMIT MACHINE REPOSITORY
+_aka 1kkk repository_
+
 
 ## how to use
 `$ ./ultimate-commit-machine.sh`
