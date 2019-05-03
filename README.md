@@ -7,7 +7,7 @@ _aka 1kkk repository_
 
 ## purposes of repository
  * I am quite curious, if there is any 'top10|100|1000' commiters [of the day] at github?
- * discover limitations of github.com
+ * discover limitations of [github](https://github.com)
   * so far discovered:
     * 10k commits preview per pull request preview [28.02.2017]
     * seems like you can't push more than 500k commits per single push [28.02.2017]
